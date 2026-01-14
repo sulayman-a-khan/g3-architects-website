@@ -137,3 +137,36 @@
     width: 100%;
   }
 }
+.image-text-container {
+  display: flex;
+  gap: 73px;
+  max-width: 1440px;
+  width: 100%;
+  margin: 85px auto;
+}
+.text-container {
+  margin: auto 0;
+}
+.image-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.text-container h3 {
+  font-size: 45px;
+  margin-bottom: 30px;
+}
+.text-container p {
+  font-size: 16px;
+  color: #868585;
+  margin-bottom: 30px;
+  line-height: 26px;
+  max-width: 537px;
+}
+.gray-text {
+  color: #868585;
+  font-weight: 500;
+}
+.orange-text {
+  color: #ff900e;
+}
