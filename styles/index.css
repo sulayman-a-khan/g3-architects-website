@@ -406,3 +406,20 @@ a:hover {
   border-radius: 30px;
   transition-duration: 0.5s;
 }
+.experience {
+  background-color: #ff900e;
+  width:150px;
+  padding: 40px;
+  text-align: center;
+  color: #ffffff;
+  margin-left: -50px;
+  margin-top: -100px;
+  position: relative;
+  border-radius: 15px;
+}
+.experience h1 {
+  margin: 0;
+}
+.experience p {
+  margin: 0;
+}
