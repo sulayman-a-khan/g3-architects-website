@@ -247,3 +247,32 @@
   }
 
 }
+.fact-container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.fact-text {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.fact-container p {
+  width: 542px;
+}
+.card-area {
+  border: 1px solid orange;
+  text-align: center;
+  padding: 40px;
+  border-radius: 10px;
+}
+.card-area h1 {
+  font-size: 45px;
+  margin: 0;
+}
+.card-area h3 {
+  color: #868585;
+  margin: 0;
+}
+.fact-card {
+  display: flex;
+  justify-content: space-evenly;
+}
