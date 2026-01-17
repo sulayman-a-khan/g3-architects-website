@@ -276,3 +276,34 @@
   display: flex;
   justify-content: space-evenly;
 }
+.sponsor-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 120px;
+}
+.spon-text {
+  text-align: center;
+}
+.spon-text p {
+  color: #868585;
+  width: 542px;
+  margin: 0 auto;
+}
+.spon-icon {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0 130px;
+}
+.spon-icon img {
+  filter: grayscale(100%);
+}
+.foot {
+  max-width: 1440px;
+  background-color: antiquewhite;
+  margin: 0 auto;
+}
+.foot p {
+  color: #868585;
+  padding: 20px 0;
+  text-align: center;
+}
