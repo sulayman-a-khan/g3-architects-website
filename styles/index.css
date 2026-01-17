@@ -245,6 +245,9 @@
     font-size: 14px;
     line-height: 20px;
   }
+  .image-text-container2 img {
+    width: 100%;;
+  }
 
 }
 .fact-container {
@@ -276,6 +279,44 @@
   display: flex;
   justify-content: space-evenly;
 }
+
+@media (max-width: 576px) {
+
+  .fact-container {
+    padding: 0 15px;
+  }
+
+  .fact-text {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  .fact-container p {
+    width: 100%;
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .fact-card {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .card-area {
+    padding: 25px;
+  }
+
+  .card-area h1 {
+    font-size: 32px;
+  }
+
+  .card-area h3 {
+    font-size: 14px;
+  }
+
+}
+
 .sponsor-container {
   max-width: 1440px;
   margin: 0 auto;
@@ -297,6 +338,42 @@
 .spon-icon img {
   filter: grayscale(100%);
 }
+
+@media (max-width: 576px) {
+
+  .sponsor-container {
+    padding: 0 15px;
+    margin-top: 60px;
+  }
+
+  .spon-text {
+    text-align: center;
+  }
+
+  .spon-text h1 {
+    font-size: 28px;
+  }
+
+  .spon-text p {
+    width: 100%;
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 10px;
+  }
+
+  .spon-icon {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin: 40px 0 80px;
+  }
+
+  .spon-icon img {
+    width: 20%;
+  }
+
+}
+
 .foot {
   max-width: 1440px;
   background-color: antiquewhite;
@@ -306,4 +383,26 @@
   color: #868585;
   padding: 20px 0;
   text-align: center;
+}
+@media (max-width: 576px) {
+
+  
+
+  .foot p {
+    font-size: 10px;
+    padding: 15px 0;
+  }
+
+}
+
+.orange-button:hover {
+  background-color: rgb(55, 0, 255);
+  border-radius: 30px;
+  transition-duration: 0.5s;
+}
+a:hover {
+  background-color: #ff900e;
+  padding: 10px;
+  border-radius: 30px;
+  transition-duration: 0.5s;
 }
